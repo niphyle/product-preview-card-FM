@@ -1,16 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
 body{
     background-color: hsl(30, 38%, 92%);
     font-family: 'Montserrat', 'Fraunces';
-
+    justify-content: center;
 }
 
 .card {
-    margin: auto;
-
-    border-radius: 5px, 5px, 0, 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    background-color: hsl(0, 0%, 100%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 50%;
+    height: 50%;
+    min-width: 546.5px;
+    max-height: 700px;
 }
 
+.card img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-height: 700px;
+}
 /* .container{
     padding: 2px 16px;
 } */
@@ -24,8 +39,20 @@ body{
     width: 50%;
 }
 
-.product-text {
+.product-info {
     display: inline-block;
     width: 50%;
 }
+
+.product-text {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 5rem;
+}
+
 
