@@ -2,8 +2,16 @@
 
 body{
     background-color: hsl(30, 38%, 92%);
-    font-family: 'Montserrat', 'Fraunces';
+    font-family: 'Montserrat';
     justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    color: black;
 }
 
 .card {
@@ -26,9 +34,6 @@ body{
     border-bottom-left-radius: 10px;
     max-height: 700px;
 }
-/* .container{
-    padding: 2px 16px;
-} */
 
 .product-card {
     display: flow-root;
@@ -48,6 +53,15 @@ body{
     padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+.product-text p {
+    font-size: 14px;
+}
+
+.product-type {
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 .attribution {
