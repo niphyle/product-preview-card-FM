@@ -64,6 +64,22 @@ h1 {
     font-weight: 500;
 }
 
+.price {
+    display: inline-block;
+}
+
+.sale-price {
+    font-size: 2rem;
+    font-family: 'Fraunces';
+    color: hsl(158, 36%, 37%);
+}
+
+.original-price {
+    text-decoration: line-through;
+    width: auto;
+    text-align: center;
+}
+
 .attribution {
     text-align: center;
     margin-top: 5rem;
